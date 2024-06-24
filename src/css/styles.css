@@ -92,7 +92,7 @@ body {
       background-color: #477f78;
       color: #fff;
 
-      div{
+      .descriptionContainer{
         width: 74%;
 
         h2 {
@@ -105,17 +105,13 @@ body {
           width: 100%;
           display: flex;
           align-items: center;
-  
-          /* Modificar */
           justify-content: center;
   
-          div {
+          .descriptionTextContainer {
             width: 100%;
             display: flex;
             flex-direction: column;
             gap: 30px;
-  
-            /* Modificar */
             margin-right: 2%;
   
             h3 {
@@ -157,7 +153,7 @@ body {
           text-align: center;
         }
   
-        .container {
+        .nutritionContainer {
           width: 100%;
           height: 300px;
           max-width: 1320px;
@@ -230,7 +226,7 @@ body {
       align-items: center;
       justify-content: center;
 
-      div {
+      .categoriesContainer {
         width: 74%;
         max-width: 74%;
         display: flex;

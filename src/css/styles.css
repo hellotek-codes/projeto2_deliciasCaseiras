@@ -96,21 +96,17 @@ body {
         margin: 70px 0;
       }
 
-      div {
+      .descriptionContainer {
         width: 100%;
         display: flex;
         align-items: center;
-
-        /* Modificar */
         justify-content: center;
 
-        div {
+        .decriptionTextContainer {
           width: 550px;
           display: flex;
           flex-direction: column;
           gap: 30px;
-
-          /* Modificar */
           margin-right: 2%;
 
           h3 {
